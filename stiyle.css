@@ -47,6 +47,11 @@ button {
   height: 60%;
   width: 54%;
   font-size: 26px;
+  max-width: 80%; /* Ajusta el ancho máximo del modal */
+  margin: 0 auto; /* Centra el modal en pantallas más grandes */
+  overflow-y: auto; /* Añade desplazamiento vertical si el contenido es demasiado largo */
+  max-height: 80vh; /* Ajusta la altura máxima para evitar que el modal sea demasiado largo */
+}
 }
 
 #close-modal {
