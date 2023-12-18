@@ -40,7 +40,7 @@ button {
 }
 
 #modal-content {
-  background-color: #e3e5f2;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -51,7 +51,6 @@ button {
   margin: 0 auto; /* Centra el modal en pantallas más grandes */
   overflow-y: auto; /* Añade desplazamiento vertical si el contenido es demasiado largo */
   max-height: 80vh; /* Ajusta la altura máxima para evitar que el modal sea demasiado largo */
-}
 }
 
 #close-modal {
